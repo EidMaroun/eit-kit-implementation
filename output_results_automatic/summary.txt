@@ -1,0 +1,27 @@
+Reconstruction Summary
+======================
+num_frames: 391
+num_channels: 256
+active_channels: 208
+zero_channels: 48
+frame_mean_min: 0.0018740384615384615
+frame_mean_max: 0.0020692307692307694
+frame_mean_median: 0.0019048076923076922
+frame_std_median: 0.00018173776441563513
+inferred_electrodes: 16
+dropped_incomplete_frames: 0
+settled_start: 136
+settled_end: 526
+settled_frames: 391
+used_tx_normalization: True
+rank1_fit_r2_pre_norm: 0.680005
+rank1_fit_r2_post_norm: 0.110101
+tx_anomaly_threshold_frac: 0.03
+tx_anomaly_rows: [11]
+origin_present: False
+matplotlib_available: True
+
+Interpretation Notes
+====================
+Detected tx_scale anomalies. Probe contact/wiring/mux path for these tx pairs:
+  tx=11 (src=11, sink=12), scale dev=+5.62%
